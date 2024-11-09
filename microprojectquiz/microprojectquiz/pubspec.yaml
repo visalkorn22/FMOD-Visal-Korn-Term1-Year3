@@ -1,0 +1,9 @@
+name: microprojectquiz
+description: A Dart project
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"  # Specify your Dart SDK version
+
+dependencies:
+  collection: ^1.17.0  # Use the latest version from pub.dev
