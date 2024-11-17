@@ -6,6 +6,8 @@ List<String> images = [
   "assets/W4-S3/insect.jpg",
   "assets/W4-S3/girl.jpg",
   "assets/W4-S3/man.jpg",
+  "assets/W4-S3/Naruto.jpg",
+  "assets/W4-S3/Naruto-S.jpg",
 ];
 
 void main() => runApp(MaterialApp(
