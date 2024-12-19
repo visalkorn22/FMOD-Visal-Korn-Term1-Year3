@@ -30,10 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  uuid: ^4.5.1
-  intl: ^0.18.0 # Use the latest version
-
-
+  uuid: ^3.0.7
+  intl: ^0.18.0
+  audioplayers: ^0.20.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -41,6 +40,7 @@ dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+  just_audio: ^0.9.42
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -60,6 +60,7 @@ flutter:
     - assets/images/
     - assets/weather/
     - assets/W4-S3/
+    - assets/audio/golden.mp3
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

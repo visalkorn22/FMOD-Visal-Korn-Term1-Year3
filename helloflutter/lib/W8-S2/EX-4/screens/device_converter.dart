@@ -1,3 +1,4 @@
+// ignore: unused_import
 import 'dart:convert';
 import 'package:flutter/material.dart';
 
@@ -23,8 +24,6 @@ class _DeviceConverterState extends State<DeviceConverter> {
         return dollarAmount * 4000;
       case Device.DONG:
         return dollarAmount * 25000;
-      default:
-        return 0.0;
     }
   }
 
